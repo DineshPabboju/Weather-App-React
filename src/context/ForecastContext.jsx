@@ -1,7 +1,8 @@
 import { createContext, useState, useContext, useEffect } from "react";
 import { useWeather } from "./WeatherContext";
 
-const apiKey = import.meta.env.VITE_API_KEY;;
+const apiKey = 'd2f9a5d03a0bfcc067ea2ad09dc94afa';
+
 // Step-1 : Create a Context
 export const ForecastContext = createContext();
 
