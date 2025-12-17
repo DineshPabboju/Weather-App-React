@@ -43,7 +43,7 @@ const CurrentWeather = () => {
         <div className='w-full flex justify-between px-4 py-3'>
           <div className='w-[120px] h-[120px]'>
             <img 
-              src={`/public/assets/weather/${getWeatherIcon(iconid)}`} 
+              src={`/assets/weather/${getWeatherIcon(iconid)}`} 
               alt="Weather Icon"
               className='w-full h-full object-contain'
             />
