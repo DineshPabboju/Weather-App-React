@@ -31,7 +31,7 @@ const ForecastCard = ({ value }) => {
         {/* Weather Icon */}
         <div className="w-14 h-14">
           <img 
-            src={`src/assets/${getWeatherIcon(icon)}`}
+            src={`/assets/weather/${getWeatherIcon(icon)}`}
             alt="Weather Icon"
             className="w-full h-full object-contain"
           />
