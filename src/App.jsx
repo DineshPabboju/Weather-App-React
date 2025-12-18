@@ -1,4 +1,4 @@
-import bgImage from '/public/assets/bg.jpg'
+
 import './App.css'
 import SearchBar from './components/SearchBar/SearchBar'
 import CurrentWeather from './components/WeatherInfo/CurrentWeather'
